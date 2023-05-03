@@ -1,8 +1,9 @@
-module github.com/GuilhermeAlegre/CleanArch-Infra
+module github.com/GuilhermeAlegre/CleanArch
 
 go 1.19
 
 require (
+	github.com/GuilhermeAlegre/CleanArch-Infra v0.0.0-20230503081724-ec1825709523
 	github.com/go-redis/redis/v7 v7.4.1
 	github.com/go-yaml/yaml v2.1.0+incompatible
 	github.com/gocraft/dbr/v2 v2.7.3
