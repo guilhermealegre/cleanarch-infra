@@ -1,1 +1,0 @@
-# CleanArch-Infra

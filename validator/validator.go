@@ -1,7 +1,7 @@
 package validator
 
 import (
-	"auth/infra"
+	infra "github.com/guilhermealegre/cleanarch-infra"
 )
 
 type validator struct {

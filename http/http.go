@@ -2,10 +2,10 @@ package http
 
 import (
 	"fmt"
-	infra "github.com/GuilhermeAlegre/CleanArch-Infra"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	infra "github.com/guilhermealegre/cleanarch-infra"
 )
 
 type http struct {

@@ -1,6 +1,6 @@
 package logger
 
-import "auth/infra"
+import infra "github.com/guilhermealegre/cleanarch-infra"
 
 type logger struct {
 }
