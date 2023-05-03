@@ -1,7 +1,7 @@
 package infra
 
 import (
-	"auth/infra/errors"
+	"github.com/guilhermealegre/cleanarch-infra/errors"
 	"net/http"
 	"reflect"
 )
