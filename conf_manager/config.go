@@ -1,11 +1,11 @@
 package config_manager
 
 import (
-	"auth/infra/http"
-	"auth/infra/postgres"
-	"auth/infra/redis"
 	"fmt"
 	"github.com/go-yaml/yaml"
+	"github.com/guilhermealegre/cleanarch-infra/http"
+	"github.com/guilhermealegre/cleanarch-infra/postgres"
+	"github.com/guilhermealegre/cleanarch-infra/redis"
 	"os"
 	"reflect"
 	"strconv"
