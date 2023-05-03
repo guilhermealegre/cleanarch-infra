@@ -3,7 +3,6 @@ package http
 import (
 	"fmt"
 	infra "github.com/GuilhermeAlegre/CleanArch-Infra"
-	v1 "github.com/GuilhermeAlegre/CleanArch-Infra/http/routes/v1"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
@@ -74,5 +73,5 @@ func NewMiddleware(path string, handler func(c *fiber.Ctx) error) infra.Middlewa
 }
 
 func (h *http) subscribeRoutes() {
-	v1.Routes(h)
+	//v1.Routes(h)
 }
